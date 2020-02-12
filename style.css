@@ -1,0 +1,115 @@
+* {
+  font-family: 'GothamPro', 'Noto Sans KR', sans-serif !important;
+  letter-spacing: -0.1ch;
+  line-height: 1.4;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+div.header {
+  display: flex;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  background-color: #F6F6F6;
+}
+
+header {
+  width: 83%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+header img {
+  width: 316px;
+  height: 316px;
+  object-fit: contain;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  transform: rotate(12deg);
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.28) 0px 1px 9px;
+  margin-bottom: 1.5rem;
+  margin-top: 5.5rem;
+}
+
+h1 span {
+  background-color: #042440;
+  width: fit-content;
+  padding: 2.5px 7px;
+}
+
+h1 span:first-child {
+  padding-top: 4px;
+}
+
+h1 span:last-child {
+  padding-bottom: 10px;
+}
+
+div.content {
+  z-index: 999;
+  box-shadow: 0px -2px 36px -10px rgba(0,0,0,0.4);
+}
+
+div.container {
+  width: 83%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  padding: 1.8rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  padding: 8px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  border: none;
+  background-color: #ebf2fa;
+  transition: background-color 0.2s ease-in;
+}
+
+textarea:focus {
+  background-color: #e3edf7;
+  outline: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+  font-weight: 800;
+}
