@@ -17,12 +17,18 @@
     </h1>
   </header>
   <section>
-    <h1>Recursive Base64</h1>
-    <textarea id="base64"></textarea>
+    <h2>Recursive Base64</h2>
+    <textarea id="base64-input"></textarea>
+    <textarea id="base64-output" readonly></textarea>
   </section>
   <section>
-    <h1>Post link from Facebook embed</h1>
-    <textarea id="facebook"></textarea>
+    <h2>Post link from Facebook embed</h2>
+    <textarea id="facebook-input"></textarea>
+    <textarea id="facebook-output" readonly></textarea>
   </section>
+  <script>
+    const recursiveBase64Converter = new RecursiveBase64();
+    recursiveBase64Converter.addEventListener();
+  </script>
 </body>
 </html>
